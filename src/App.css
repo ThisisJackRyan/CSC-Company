@@ -1,0 +1,45 @@
+
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+
+
+.Header{
+  position: absolute;
+  z-index: 200;
+}
+.nav{
+  display: flex;
+}
+
+.logo{
+  flex:1;
+}
+.logo img{
+  margin: 1em;
+  margin-left: 5em;
+  
+}
+
+.navLinks{
+  position: relative;
+  flex: 2;
+  margin-left: 10em;
+}
+.navLinks ul {
+  margin-top: 2em;
+  list-style: none;
+  display: flex;
+  gap: 3em;
+}
+
+.navLinks ul li {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-style: normal;
+}
