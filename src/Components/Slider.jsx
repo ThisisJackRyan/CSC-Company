@@ -3,6 +3,7 @@ import Cerner from "../Assets/Images/SlidingImages/cerner.jpg"
 import Rock from "../Assets/Images/SlidingImages/CSC_HomeSlider_Rockhurst.png"
 import Data from "../Assets/Images/SlidingImages/DataCenter.jpg"
 import { useState } from "react"
+import Slide from "./Slide"
 
 
 
@@ -23,38 +24,17 @@ const Slider = () => {
     return (
         <div className="Slider">
             <ul>
-                
                 <li>
-                    <div className="slide" style={{backgroundImage: `url(${Mary})`}}>
-                        <div className="words">
-                            <span>here are some words</span>
-                        </div>
-                        <div className="btnLearnMore"></div>
-                    </div>
+                    <Slide image={Mary} words ="Some Words"/>
                 </li>
                 <li>
-                    <div className="slide" style={{backgroundImage: `url(${Cerner})`}}>
-                        <div className="words">
-                            <span></span>
-                        </div>
-                        <div className="btnLearnMore"></div>
-                    </div>
+                    <Slide image={Cerner} words ="Some Words"/>
                 </li>
                 <li>
-                    <div className="slide" style={{backgroundImage: `url(${Rock})`}}>
-                        <div className="words">
-                            <span></span>
-                        </div>
-                        <div className="btnLearnMore"></div>
-                    </div>
+                    <Slide image={Rock} words ="Some Words"/>
                 </li>
                 <li>
-                    <div className="slide" style={{backgroundImage: `url(${Data})`}}>
-                        <div className="words">
-                            <span></span>
-                        </div>
-                        <div className="btnLearnMore"></div>
-                    </div>
+                    <Slide image={Data} words ="Some Words"/>
                 </li>
             </ul>
             <button onClick={swap}>{whichSlide}</button>
