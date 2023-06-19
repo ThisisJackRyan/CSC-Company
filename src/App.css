@@ -69,6 +69,35 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color:white;
+}
+.words{
+  font-size: 2.875rem;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+.btnLearnMore{
+  background-color:#355989;
+  margin-top:2em;
+  padding-top:0.8125em ;
+  padding-bottom: 0.8125em;
+  padding-left: 1.8125em;
+  padding-right: 1.8125em;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: all .2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .swapButton{
@@ -81,7 +110,7 @@
   top:30%;
   background-color: rgba(0, 0, 0, 0.25);
   font-family: Montserrat, Arial, Helvetica, sans-serif;  
-  font-weight: lighter;
+  font-weight: 100;
   font-size: 2em;
   color:white
 }
