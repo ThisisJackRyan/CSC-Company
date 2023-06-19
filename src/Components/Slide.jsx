@@ -7,7 +7,7 @@ const Slide = (props) => {
             <div className="words">
                 <span>{props.words}</span>
             </div>
-            <div className="btnLearnMore"></div>
+            <div className="btnLearnMore">Learn More </div>
         </div>
     )
 }
