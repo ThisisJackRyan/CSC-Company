@@ -1,7 +1,7 @@
-import Mary from "../Assets/Images/SlidingImages/st-marys.jpg"
-import Cerner from "../Assets/Images/SlidingImages/cerner.jpg"
-import Rock from "../Assets/Images/SlidingImages/CSC_HomeSlider_Rockhurst.png"
-import Data from "../Assets/Images/SlidingImages/DataCenter.jpg"
+import Mary from "../../Assets/Images/SlidingImages/st-marys.jpg"
+import Cerner from "..//../Assets/Images/SlidingImages/cerner.jpg"
+import Rock from "../../Assets/Images/SlidingImages/CSC_HomeSlider_Rockhurst.png"
+import Data from "../../Assets/Images/SlidingImages/DataCenter.jpg"
 import { useState } from "react"
 import Slide from "./Slide"
 

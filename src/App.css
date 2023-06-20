@@ -117,3 +117,40 @@
 .swapButton.right{
   right:0px;
 }
+
+
+
+.blueBar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #355989;
+  padding: 0.25em;
+}
+.miniAbout{
+  display: flex;
+  margin:4em;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 3em;     ;
+}
+.miniAboutWords{
+  flex: 3;
+}
+.miniAboutTitle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2;
+  font-weight: bold;
+}
+.miniAboutParagraph{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.5em;
+}
+.flippingImages{
+
+  flex: 1
+}
