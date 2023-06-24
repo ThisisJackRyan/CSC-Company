@@ -54,9 +54,7 @@
 
 
 
-.Slider{
 
-}
 
 .Slider ul{
   list-style: none;
@@ -130,7 +128,7 @@
 }
 .miniAbout{
   display: flex;
-  margin:4em;
+  margin:4rem;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-size: 3em;     ;
 }
@@ -141,16 +139,21 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-size: 1.75rem;
   font-weight: bold;
 }
 .miniAboutParagraph{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.5em;
+  padding-left: 4rem;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: gray;
+  line-height: 1.7;
+}
+.miniAboutParagraph p{
+  margin-bottom: 1rem;
 }
 .flippingImages{
-
-  flex: 1
+  flex: 1;
+  
 }
