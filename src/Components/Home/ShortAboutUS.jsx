@@ -14,7 +14,19 @@ const ShortAboutUS = () => {
                     </div>
                 </div>
                 <div className="flippingImages">
-                    
+                    <div className="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div className="circleIcon">
+                                    ?
+                                </div>
+                                <div className="flipCardTitle">Did You Know</div>
+                            </div>
+                            <div class="flip-card-back">
+                                <p className="flipCardBackParagraph">"Control Service Company currently serves the building automation needs for more than 400 clients throughout eastern Kansas and western Missouri."</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
