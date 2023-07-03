@@ -6,6 +6,7 @@ import Slider from './Slider';
 import Building from "../../Assets/Images/ColumnImages/building-300x300.jpg"
 import Automation from "../../Assets/Images/ColumnImages/automation-300x300.jpg"
 import Systems from "../../Assets/Images/ColumnImages/systems-300x300.jpg"
+import Discover from './Discover';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
                 <ColumnSection image={Automation} button="Our Services" title="Automation" words="By combining our experience and engineering expertise, we create automated, energy-efficient sequences of operation that minimize the strain on a facility’s resources. Ultimately, customers see a rapid return on investment and significant cost-savings over time." />
                 <ColumnSection image={Systems} button="Our Products" title="Systems" words="Our commitment to innovation ensures customers benefit from the most advanced, user-friendly HVAC, lighting and security systems deployed in the market. This is underscored by trusted relationships with companies like Automated Logic, Crestron and Software House." />
             </div>
+            <Discover />
         </div>
     )
 }
