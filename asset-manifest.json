@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/CSC-Company/static/css/main.ad1089ea.css",
+    "main.js": "/CSC-Company/static/js/main.28e2a7ba.js",
+    "static/js/787.bb6b43eb.chunk.js": "/CSC-Company/static/js/787.bb6b43eb.chunk.js",
+    "static/media/CSC_HomeSlider_Rockhurst.png": "/CSC-Company/static/media/CSC_HomeSlider_Rockhurst.116531f8c5aa136b2264.png",
+    "static/media/DataCenter.jpg": "/CSC-Company/static/media/DataCenter.e5110e596ecc97f66283.jpg",
+    "static/media/cerner.jpg": "/CSC-Company/static/media/cerner.854fe89f909d2208abf8.jpg",
+    "static/media/st-marys.jpg": "/CSC-Company/static/media/st-marys.2933f63bb92c97bbcb86.jpg",
+    "static/media/automation-300x300.jpg": "/CSC-Company/static/media/automation-300x300.fc129c25f682e48a25e8.jpg",
+    "static/media/CSC-logo_noInc_white-black_072318_175x146.png": "/CSC-Company/static/media/CSC-logo_noInc_white-black_072318_175x146.a316c9fb3ec212087d07.png",
+    "static/media/EnergyServiceCompanies.png": "/CSC-Company/static/media/EnergyServiceCompanies.bf0f65cae39d4e3359db.png",
+    "static/media/building-300x300.jpg": "/CSC-Company/static/media/building-300x300.79c83be5bbda357675b7.jpg",
+    "static/media/ContractingPartners.png": "/CSC-Company/static/media/ContractingPartners.db0a9847dcc9585c2774.png",
+    "static/media/Architecture-EngeneeringFirms.png": "/CSC-Company/static/media/Architecture-EngeneeringFirms.1470a095c0a8c286c38c.png",
+    "static/media/FacilityManagers-Owners.png": "/CSC-Company/static/media/FacilityManagers-Owners.d1ca9b2856f7d8ed0b02.png",
+    "index.html": "/CSC-Company/index.html",
+    "main.ad1089ea.css.map": "/CSC-Company/static/css/main.ad1089ea.css.map",
+    "main.28e2a7ba.js.map": "/CSC-Company/static/js/main.28e2a7ba.js.map",
+    "787.bb6b43eb.chunk.js.map": "/CSC-Company/static/js/787.bb6b43eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad1089ea.css",
+    "static/js/main.28e2a7ba.js"
+  ]
+}
